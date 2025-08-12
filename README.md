@@ -18,9 +18,9 @@
 
 - Displayed:
 
--- Title of the book
+--  Title of the book
 
--- Publisher name
+--  Publisher name
 
 ### Step 3: List All Books and Borrowers (LEFT JOIN)
 - Wrote a query starting from the Book table.
@@ -42,9 +42,9 @@
 
 - Displayed:
 
--- Member name
+--  Member name
 
--- Borrowed book title
+--  Borrowed book title
 
 - This ensures that members who borrowed books are always listed, even if book details are missing.
 
@@ -68,9 +68,9 @@
 
 - Verified:
 
--- Correct relationships between books, publishers, borrowers, and members
+--  Correct relationships between books, publishers, borrowers, and members
 
--- NULL values appear where no matching record exists
+--  NULL values appear where no matching record exists
 
 - No unintended data was omitted
 
@@ -81,4 +81,4 @@
 
 - Successfully combined results to emulate a FULL OUTER JOIN.
 
--Improved understanding of retrieving relational data across multiple tables.
+- Improved understanding of retrieving relational data across multiple tables.
