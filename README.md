@@ -1,13 +1,13 @@
 # SQL_Join
 
-###Step 1: Understand the Database Schema
--The database contains the following tables:
+### Step 1: Understand the Database Schema
+- The database contains the following tables:
 
--Book: Stores information about books, including BookID, Title, and PublisherID.
+- Book: Stores information about books, including BookID, Title, and PublisherID.
 
--Publisher: Stores publisher details, including PublisherID and Name.
+- Publisher: Stores publisher details, including PublisherID and Name.
 
--Borrow: Tracks book borrowing activity, linking books and members, with BorrowDate and optional ReturnDate.
+- Borrow: Tracks book borrowing activity, linking books and members, with BorrowDate and optional ReturnDate.
 
 -Member: Stores library member information such as MemberID and Name.
 
